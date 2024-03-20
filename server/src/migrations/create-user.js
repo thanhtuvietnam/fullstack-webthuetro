@@ -14,10 +14,13 @@ module.exports = {
       password: {
         type: Sequelize.STRING,
       },
-      email: {
+      phone: {
         type: Sequelize.STRING,
       },
       zalo: {
+        type: Sequelize.STRING,
+      },
+      fbUrl: {
         type: Sequelize.STRING,
       },
 
