@@ -14,6 +14,7 @@ module.exports = {
       border: ['hover', 'focus'],
       maxWidth: {
         600: '600px',
+        1100: '1100px',
       },
     },
   },
