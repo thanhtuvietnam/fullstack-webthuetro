@@ -1,12 +1,11 @@
 import React from 'react';
 import { SearchItem } from '../../components';
 import icons from '../../ultils/icons';
-
 const { BsChevronRight, IoLocationOutline, GrTag, FaCrop, FaRegBuilding, IoSearch } = icons;
 
 const Search = () => {
   return (
-    <div className=' p-[10px] bg-[#febb02] rounded-lg flex-col lg:flex-row flex items-center justify-around gap-2'>
+    <div className=' p-[10px] w-3/5 my-3 bg-[#febb02] rounded-lg flex-col lg:flex-row flex items-center justify-around gap-2'>
       <SearchItem
         fontWeight
         IconBefore={<FaRegBuilding />}

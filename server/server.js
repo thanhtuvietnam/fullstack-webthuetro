@@ -5,7 +5,8 @@ import initRoutes from './src/routes';
 import connectDatabase from './src/config/connectDatabase'
 // import generateCode from './src/utils/generateCode';
 
-// console.log(generateCode(6));
+// console.log(generateCode('cho thuê nhà trọ'));
+
 const app = express();
 app.use(
   cors({
