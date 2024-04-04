@@ -4,7 +4,7 @@ import { path } from './ultils/constant';
 
 function App() {
   return (
-    <div className='h-screen w-full bg-primary'>
+    <div className='h-full w-full bg-primary'>
       <Routes>
         <Route
           path={path.HOME}

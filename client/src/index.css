@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.start-item {
+  display: inline-block;
+  margin-bottom: 6px;
 }
