@@ -16,12 +16,12 @@ const List = () => {
       </div>
       <div className="items">
         <Item />
+        {/* <Item />
         <Item />
         <Item />
         <Item />
         <Item />
-        <Item />
-        <Item />
+        <Item /> */}
       </div>
     </div>
   );
