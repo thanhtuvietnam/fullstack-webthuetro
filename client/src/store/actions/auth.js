@@ -1,6 +1,5 @@
-import actionType from './actionType';
-import { apiRegister } from '../../services/auth';
-import { apiLogin } from '../../services/auth';
+import actionType from "./actionType";
+import { apiRegister, apiLogin } from "../../services/auth";
 
 export const register = (payload) => async (dispatch) => {
   try {

@@ -1,14 +1,14 @@
 import db from '../models';
 import bcrypt from 'bcryptjs';
 import { v4 } from 'uuid';
-// import chothuecanho from '../../data/chothuecanho.json';
+import chothuecanho from '../../data/chothuecanho.json';
 // import matbangvanphong from '../../data/matbangvanphong.json';
 // import nhachothue from '../../data/nhachothue.json';
-import chothuephongtro from '../../data/chothuephongtro.json';
+// import chothuephongtro from '../../data/chothuephongtro.json';
 import generateCode from '../utils/generateCode';
 require('dotenv').config();
 
-const dataBody = chothuephongtro.body;
+const dataBody = chothuecanho.body;
 
 const hashPassword = (password) => bcrypt.hashSync(password, bcrypt.genSaltSync(12));
 
@@ -29,7 +29,7 @@ export const insertService = () =>
           labelCode,
           address: item?.header?.address,
           attributesID: attributesID,
-          categoryCode: 'CTPT',
+          categoryCode: 'CTCH',
           description: JSON.stringify(item?.mainContent?.content),
           userID: userID,
           overviewID,

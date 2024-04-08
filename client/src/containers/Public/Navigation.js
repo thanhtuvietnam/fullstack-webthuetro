@@ -27,7 +27,7 @@ const Navigation = () => {
   }, []);
 
   return (
-    <div className='text-white w-screen flex justify-center items-center h-[40px] bg-secondary1'>
+    <div className='text-white w-full flex justify-center items-center h-[40px] bg-secondary1'>
       <div className='w-3/5 font-bold text-[13.3px] w-1100 flex items-center'>
         <NavLink
           to={`/`}
